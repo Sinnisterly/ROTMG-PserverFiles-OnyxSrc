@@ -1,0 +1,32 @@
+{
+  "dbInfo": {
+    "host": "127.0.0.1",
+    "port": "6379",
+    "auth": "",
+    "index": "0"
+  },
+  "serverInfo": {
+    "type": "World",
+    "name": "Dango Realm",
+    "address": "13.86.62.145", //the ip to host the server
+    "port": "2050",
+    "coordinates": {
+      "latitude": "0",
+      "longitude": "0"
+    },
+    "adminOnly": "false"
+  },
+  "serverSettings": {
+    "logFolder": "./logs",
+    "resourceFolder": "./resources",
+    "version": "beta 0.06",
+    "tps": "20",
+    "mode": "Single",
+    "key": "B1A5ED",
+    "maxConnections": "200",
+    "maxPlayers": "160",
+    "maxPlayersWithPriority": "180",
+    "enablePets": "false",
+    "enableMarket": "true"
+  }
+}

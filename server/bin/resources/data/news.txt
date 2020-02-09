@@ -1,0 +1,33 @@
+[{
+	"slot": 3, 
+	"linkType": 1, 
+	"title": "", 
+	"image": "", 
+	"priority": 759, 
+	"linkDetail": "https://discord.gg/hWFjDAn", 
+	"platform": "kabam.com,kongregate,steam,rotmg", 
+	"startTime": 1413334800000, 
+	"endTime": 1914022340000
+}, 
+{
+	"slot": 2, 
+	"linkType": 1, 
+	"title": "", 
+	"image": "",
+	"priority": 756, 
+	"linkDetail": "https://discord.gg/hWFjDAn", 
+	"platform": "kabam.com,kongregate,steam,rotmg", 
+	"startTime": 1412730000000, 
+	"endTime": 1913417540000
+}, 
+{
+	"slot": 1, 
+	"linkType": 1, 
+	"title": "Join our Discord channel",
+	"image": "",
+	"priority": 757, 
+	"linkDetail": "https://discord.gg/hWFjDAn", 
+	"platform": "kabam.com,kongregate,steam,rotmg", 
+	"startTime": 1413199137000, 
+	"endTime": 1913935940000
+}]

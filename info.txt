@@ -1,0 +1,21 @@
+setting up the server:
+
+1 - Download redis (for windows or linux, whichever you use)
+2 & 3 client - Open intelliJ Idea and search for the client folder, after
+  that rebuild the client (before that, check the ips.)
+2 & 3 server - Open the server solution (.sln file) with visual studio 15+
+  Rebuild the solution (before that, check the ips.)
+4 - Copy the "resources" folder to the bin folder (server/bin)
+5 - Open the "redis-server.exe" as admin
+6 - Open "server.exe" and "wserver.exe" as admin
+7 - Open the client. Done.
+
+EXTRA: in order to get yourself a rank, do the following:
+
+open "redis-cli.exe" (when you already have "redis-server.exe"
+open as admin);
+
+hget NAMES AYAYA (put your account name instead of "AYAYA")
+hset account.ID ranks 110 (ID = THE ID OF YOUR ACCOUNT, that you just got from
+the previous thing; ranks = rank or ranks I do not remember)
+hset account.ID admin 1

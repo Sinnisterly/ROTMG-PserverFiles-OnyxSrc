@@ -1,0 +1,12 @@
+{"id":-16,
+"isLimbo":false,
+"persist":true,
+"name":"Donator Isle",
+"sbName":"Donator Isle",
+"difficulty":0,
+"background":0,
+"blocking":1,
+"restrictTp":false,
+"showDisplays":false,
+"maps":["donatorisle.jm"],
+"music":["magic"]}
