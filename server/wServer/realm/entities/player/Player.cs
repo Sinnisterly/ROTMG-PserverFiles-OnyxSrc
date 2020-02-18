@@ -644,12 +644,7 @@ namespace wServer.realm.entities
                 if (generate == 5)
                 {
                     ApplyConditionEffect(ConditionEffectIndex.Damaging, 2000);
-                    BroadcastSync(new Notification()
-                    {
-                        ObjectId = Id,
-                        Color = new ARGB(0xFF0000),
-                        Message = "Forceful"
-                    }, p => this.DistSqr(p) < RadiusSqr);
+                    Client.SendPacket(new GlobalNotification() { Text = "showKeyUI" });
                 }
             }
             #endregion

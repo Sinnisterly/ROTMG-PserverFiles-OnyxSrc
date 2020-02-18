@@ -224,9 +224,12 @@ import kabam.rotmg.text.model.TextKey;
 import kabam.rotmg.text.view.stringBuilder.LineBuilder;
 import kabam.rotmg.ui.model.Key;
 import kabam.rotmg.ui.model.UpdateGameObjectTileVO;
+import kabam.rotmg.ui.view.EffectPopUpPng;
+import kabam.rotmg.ui.signals.EffectPopUpSignal;
 import kabam.rotmg.ui.signals.ShowHideKeyUISignal;
 import kabam.rotmg.ui.signals.ShowKeySignal;
 import kabam.rotmg.ui.signals.UpdateBackpackTabSignal;
+import kabam.rotmg.ui.view.EffectPopUpPng;
 import kabam.rotmg.ui.view.NotEnoughGoldDialog;
 import kabam.rotmg.ui.view.TitleView;
 
@@ -1292,6 +1295,9 @@ public class GameServerConnectionConcrete extends GameServerConnection {
 
     private function onGlobalNotification(_arg1:GlobalNotification):void {
         switch (_arg1.text) {
+            case "showEffectUI":
+                EffectPopUpSignal.instance.dispatch();
+                return;
             case "yellow":
                 ShowKeySignal.instance.dispatch(Key.YELLOW);
                 return;

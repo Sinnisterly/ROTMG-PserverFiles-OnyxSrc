@@ -8,7 +8,7 @@
   "serverInfo": {
     "type": "World",
     "name": "Dango Realm",
-    "address": "13.86.62.145", //the ip to host the server
+    "address": "127.0.0.1", //the ip to host the server
     "port": "2050",
     "coordinates": {
       "latitude": "0",

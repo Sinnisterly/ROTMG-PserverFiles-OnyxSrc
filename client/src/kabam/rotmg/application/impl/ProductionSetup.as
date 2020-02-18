@@ -5,7 +5,7 @@ import kabam.rotmg.application.api.ApplicationSetup;
 
 public class ProductionSetup implements ApplicationSetup {
 
-    private const SERVER:String = "13.86.62.145:8080"; //where you change the ip, keep the :8080
+    private const SERVER:String = "127.0.0.1:8080"; //where you change the ip, keep the :8080
     private const UNENCRYPTED:String = ("http://" + SERVER);
     private const ENCRYPTED:String = ("http://" + SERVER);
     private const BUILD_LABEL:String = "<font color='#FFDD00'></font><font color='#FF6F00'>{VERSION} {MINOR}</font>";
