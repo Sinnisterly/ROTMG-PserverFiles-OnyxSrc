@@ -455,5 +455,35 @@
       <UnlockLevel level="20" type="0x0300">Rogue</UnlockLevel>
       <UnlockLevel level="20" type="0x031d">Warrior</UnlockLevel>
       <UnlockCost>999</UnlockCost>
-   </Object>
+   </Object> 
+    <Object type="0x7326" id="Bard">
+            <Class>Player</Class>
+            <Description>The bard relies on his ingenuity and musical talents.</Description>
+            <AnimatedTexture>
+              <File>players</File>
+              <Index>14</Index>
+            </AnimatedTexture>
+            <HitSound>player/rogue_hit</HitSound>
+            <DeathSound>player/rogue_death</DeathSound>
+            <Player/>
+            <BloodProb>1.0</BloodProb>
+            <SlotTypes>24, 25, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+            <Equipment>0xc44, 0xc53, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+            <MaxHitPoints max="750">150</MaxHitPoints>
+            <MaxMagicPoints max="302">100</MaxMagicPoints>
+            <Attack max="75">15</Attack>
+            <Defense max="28">0</Defense>
+            <Speed max="55">10</Speed>
+            <Dexterity max="65">12</Dexterity>
+            <HpRegen max="45">10</HpRegen>
+            <MpRegen max="75">12</MpRegen>
+            <LevelIncrease min="20" max="30">MaxHitPoints</LevelIncrease>
+            <LevelIncrease min="2" max="8">MaxMagicPoints</LevelIncrease>
+            <LevelIncrease min="1" max="2">Attack</LevelIncrease>
+            <LevelIncrease min="0" max="0">Defense</LevelIncrease>
+            <LevelIncrease min="0" max="2">Speed</LevelIncrease>
+            <LevelIncrease min="1" max="2">Dexterity</LevelIncrease>
+            <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
+            <LevelIncrease min="1" max="2">MpRegen</LevelIncrease>
+          </Object>
 </Objects>
